@@ -4,8 +4,9 @@ body{
 }
 
 .logo{
+    margin-left:20%;
     max-height:10em;
-    max-width:20%;
+    max-width:100%;
 }
 @font-face{
     font-family: aleo;
@@ -28,6 +29,7 @@ a {
     padding: unset;
     text-decoration: none;
     margin-left: 3%;
+    color:inherit;
 }
 h1{
     
