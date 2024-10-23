@@ -1,1 +1,343 @@
-<h1>Silver Roof</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senior Living Management Software</title>
+    <style>
+      @font-face {
+        font-family: "Poppins";
+        src: url("Poppins-ExtraLight.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background: white;
+        padding: 1rem 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 2;
+      }
+
+      .logo {
+        height: 100px;
+      }
+
+      .header-buttons {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .hero-container {
+        position: relative;
+        margin-bottom: 8rem;
+        background: white;
+      }
+
+      .hero {
+        background-image: url("Hero.svg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        width: 100%;
+      }
+
+      .hero-content {
+        background: rgba(255, 255, 255, 1);
+        padding: 3rem 4rem;
+        border-radius: 8px;
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -10%);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .features-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* gap: 1rem; */
+        margin: 1rem auto;
+        max-width: 75%;
+      }
+
+      .cloud-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 25rem 5% 5rem 5%;
+        align-items: center;
+      }
+
+      .benefits {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 4rem 5%;
+        text-align: center;
+      }
+
+      .benefit-card {
+        padding: 1rem;
+      }
+
+      .benefit-card img {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 1rem;
+      }
+
+      .support-section {
+        /* background: #f5f5f5; */
+        padding: 4rem 5%;
+        text-align: center;
+      }
+
+      .button {
+        background: #ff8300;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border-radius: 4px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 1rem 0;
+        white-space: nowrap;
+      }
+
+      footer {
+        background: #787878;
+        padding: 2rem 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      footer .logo {
+        filter: brightness(0) invert(1);
+      }
+
+      h1 {
+        margin-bottom: 0.5rem;
+
+        font-family: "Poppins";
+        font-size: 1.5em; 
+        color: #787878
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #444;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #444;
+        font-weight: 100;
+      }
+
+      p {
+        margin-bottom: 1rem;
+        line-height: 1.6;
+        color: #666;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          gap: 1rem;
+          text-align: center;
+          padding: 1rem;
+        }
+
+        .header-buttons {
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .header-buttons .button {
+          width: 100%;
+          text-align: center;
+          margin: 0.5rem 0;
+        }
+
+        .hero-container {
+          margin-bottom: 12rem;
+        }
+
+        .hero {
+          height: 300px;
+        }
+
+        .hero-content {
+          padding: 1.5rem;
+          transform: translate(-50%, -20%);
+        }
+
+        h1 {
+          font-size: 1.8rem;
+        }
+
+        h2 {
+          font-size: 1.4rem;
+        }
+
+        .features-list {
+          grid-template-columns: 1fr;
+          text-align: left;
+        }
+
+        .cloud-section {
+          grid-template-columns: 1fr;
+          padding: 2rem 1rem;
+          gap: 1rem;
+        }
+
+        .benefits {
+          grid-template-columns: 1fr;
+          padding: 2rem 1rem;
+        }
+
+        .support-section {
+          padding: 2rem 1rem;
+        }
+
+        footer {
+          flex-direction: column;
+          gap: 1rem;
+          padding: 1rem;
+        }
+
+        footer .header-buttons {
+          width: 100%;
+        }
+      }
+
+      @media (min-width: 769px) and (max-width: 1024px) {
+        .hero-container {
+          margin-bottom: 10rem;
+        }
+
+        .hero-content {
+          padding: 2rem;
+          width: 95%;
+        }
+
+        .benefits {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.6rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Logo.jpg" alt="Silver Roof Logo" class="logo" />
+      <div class="header-buttons">
+        <a href="#" class="button" style="background: white; color: grey"
+          >Schedule a Demo</a
+        >
+        <a href="#" class="button" style="background: #ff8300">Sign In</a>
+      </div>
+    </header>
+
+    <div class="hero-container">
+      <div class="hero"></div>
+      <div class="hero-content">
+        <h1 style="text-align: center; ">
+          Rethinking and Improving the Way We Work
+        </h1>
+        <h2 style="text-align: center">SENIOR LIVING MANAGEMENT SOFTWARE</h2>
+        <hr style="border-color: #ff8300; max-width: 70%; margin: auto" />
+        <br />
+        <h3 style="text-align: center">
+          Everything you need for your community in one place:
+        </h3>
+        <div class="features-list" >
+          <div>
+            <p>Analytics Dashboard and Reports</p>
+            <p>Marketing CRM & Lead Tracking</p>
+            <p>Resident Portal</p>
+            <p>Resident Management System</p>
+          </div>
+          <div>
+            <p>Community Management & Tracking</p>
+            <p>Work Orders Management</p>
+            <p>Activities Management</p>
+            <p>Transportation Management</p>
+          </div>
+        </div>
+        <div style="text-align: center">
+          <a href="#" class="button">Schedule a Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="cloud-section">
+      <img src="Computers.svg" alt="Platform Preview" />
+      <div>
+        <h1>Cloud Based Technology</h2>
+        <h2>EVERYTHING YOU NEED WITH YOU
+        <br>NO MATTER WHERE YOU ARE</h2>
+        <p style="max-width: 80%;">
+            Your work auto updates to be accessible on your desktop, laptop or tablet! This means you can view work orders as you go, take notes on a tour, or see the status of your community in your next meeting (no matter where it is!)         </p>
+        <a href="#" class="button">Schedule a Demo</a>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="benefit-card">
+        <img src="Computer1.svg" alt="Easy to Use Interface" />
+        <h3>Fully Customizable & Easy to Use</h3>
+      </div>
+      <div class="benefit-card">
+        <img src="Computer2.svg" alt="Customer Support" />
+        <h3>Personalized Customer Support</h3>
+      </div>
+      <div class="benefit-card">
+        <img src="Computer3.svg" alt="Modern Technology" />
+        <h3>Cutting-Edge Technology</h3>
+      </div>
+    </section>
+
+    <section class="support-section">
+      <h2>THE SUPPORT YOUR TEAM NEEDS TO DO THEIR JOB WITH EASE</h2>
+      <p style="max-width: 70%; margin: auto">
+        It's easy to navigate, all in one place and simplifies your teams work flows. It was designed to be simple, so your team can spend more time doing their job and less time trying to get through a system. If they get stuck, we are here to answer their questions!
+      </p>
+      <a href="#" class="button">Schedule a Demo</a>
+    </section>
+
+    <footer>
+      <img src="Logo White.png" alt="Silver Roof Logo" class="logo" />
+      <div class="header-buttons">
+        <a href="#" class="button">Schedule a Demo</a>
+        <a href="#" class="button" >Sign In</a>
+      </div>
+    </footer>
+  </body>
+</html>
