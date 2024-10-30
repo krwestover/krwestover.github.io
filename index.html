@@ -221,14 +221,33 @@
             font-size: 24px;
             cursor: pointer;
         }
-
+        .hide-on-mobile{
+          display: block;
+        }
+        .max-width-80{
+          max-width: 80%;
+        }
       @media (max-width: 768px) {
-
+        .mobile-font-size{
+          font-size: 1.25em;
+        }
+        .mobile-left-align{
+          text-align: left;
+        }
+        .mobile-100-max-width{
+          max-width: 100%;
+        }
+        .mobile-center-align{
+          text-align: center;
+        }
         .mobile-menu-button {
                 display: block;
                 position: absolute;
                 right: 20px;
                 top: 20px;
+            }
+            .hide-on-mobile{
+              display: none;
             }
 
             .header-buttons {
@@ -296,7 +315,7 @@
 
         .cloud-section {
           grid-template-columns: 1fr;
-          padding: 45rem 1rem 2rem 1rem;
+          padding: 37rem 1rem 2rem 1rem;
           gap: 1rem;
         }
 
@@ -368,7 +387,7 @@
     <div class="hero-container">
       <div class="hero"></div>
       <div class="hero-content">
-        <h1 style="text-align: center; ">
+        <h1 class="mobile-font-size" style="text-align: center; ">
           Rethinking and Improving the Way We Work
         </h1>
         <h2 style="text-align: center">SENIOR LIVING MANAGEMENT SOFTWARE</h2>
@@ -403,14 +422,16 @@
         <h1>Cloud Based Technology</h2>
         <h2>EVERYTHING YOU NEED WITH YOU
         <br>NO MATTER WHERE YOU ARE</h2>
-        <p style="max-width: 80%;">
+        <p  class="max-width-80 mobile-100-max-width">
             Your work auto updates to be accessible on your desktop, laptop or tablet! This means you can view work orders as you go, take notes on a tour, or see the status of your community in your next meeting (no matter where it is!)         </p>
-        <a href="#" class="button">Schedule a Demo</a>
+            <div class="mobile-center-align">
+            <a href="#" class="button">Schedule a Demo</a>
       </div>
+    </div>
     </section>
 
     <section class="benefits">
-      <div class="benefit-card">
+      <div class="benefit-card hide-on-mobile">
         <img src="Computer1.svg" alt="Easy to Use Interface" />
         <h3>Fully Customizable & Easy to Use</h3>
       </div>
@@ -418,18 +439,20 @@
         <img src="Computer2.svg" alt="Customer Support" />
         <h3>Personalized Customer Support</h3>
       </div>
-      <div class="benefit-card">
+      <div class="benefit-card hide-on-mobile">
         <img src="Computer3.svg" alt="Modern Technology" />
         <h3>Cutting-Edge Technology</h3>
       </div>
     </section>
 
-    <section class="support-section">
-      <h2>THE SUPPORT YOUR TEAM NEEDS TO DO THEIR JOB WITH EASE</h2>
-      <p style="max-width: 70%; margin: auto">
+    <section class="support-section ">
+      <h2 class="mobile-left-align">THE SUPPORT YOUR TEAM NEEDS TO DO THEIR JOB WITH EASE</h2>
+      <p style=" margin: auto" class="mobile-left-align max-width-80 mobile-100-max-width">
         It's easy to navigate, all in one place and simplifies your teams work flows. It was designed to be simple, so your team can spend more time doing their job and less time trying to get through a system. If they get stuck, we are here to answer their questions!
       </p>
-      <a href="#" class="button">Schedule a Demo</a>
+      <div class="mobile-center-align" style="margin: auto;">
+      <a href="#" class="button mobile-center-align" >Schedule a Demo</a>
+    </div>
     </section>
 
     <footer>
