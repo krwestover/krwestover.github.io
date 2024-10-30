@@ -131,8 +131,8 @@
         margin-bottom: 0.5rem;
 
         font-family: "Poppins";
-        font-size: 1.5em; 
-        color: #787878
+        font-size: 1.5em;
+        color: #787878;
       }
 
       h2 {
@@ -160,115 +160,115 @@
       }
 
       .mobile-menu-button {
-            display: none;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 10px;
-        }
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+      }
 
-        .hamburger {
-            display: block;
-            width: 24px;
-            height: 2px;
-            background: #333;
-            position: relative;
-            transition: background 0.2s;
-        }
+      .hamburger {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: #333;
+        position: relative;
+        transition: background 0.2s;
+      }
 
-        .hamburger::before,
-        .hamburger::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: #333;
-            transition: transform 0.2s;
-        }
+      .hamburger::before,
+      .hamburger::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #333;
+        transition: transform 0.2s;
+      }
 
-        .hamburger::before {
-            top: -6px;
-        }
+      .hamburger::before {
+        top: -6px;
+      }
 
-        .hamburger::after {
-            bottom: -6px;
-        }
+      .hamburger::after {
+        bottom: -6px;
+      }
 
-        .mobile-menu {
-            display: none;
-            position: fixed;
-            top: 0;
-            right: -100%;
-            width: 100%;
-            height: 100vh;
-            background: white;
-            padding: 2rem;
-            z-index: 1000;
-            transition: right 0.3s ease;
-        }
+      .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        padding: 2rem;
+        z-index: 1000;
+        transition: right 0.3s ease;
+      }
 
-        .mobile-menu.active {
-            right: 0;
-        }
+      .mobile-menu.active {
+        right: 0;
+      }
 
-        .close-menu {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: none;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-        }
-        .hide-on-mobile{
-          display: block;
-        }
-        .max-width-80{
-          max-width: 80%;
-        }
+      .close-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+      .hide-on-mobile {
+        display: block;
+      }
+      .max-width-80 {
+        max-width: 80%;
+      }
       @media (max-width: 768px) {
-        .mobile-font-size{
+        .mobile-font-size {
           font-size: 1.25em;
         }
-        .mobile-left-align{
+        .mobile-left-align {
           text-align: left;
         }
-        .mobile-100-max-width{
+        .mobile-100-max-width {
           max-width: 100%;
         }
-        .mobile-center-align{
+        .mobile-center-align {
           text-align: center;
         }
         .mobile-menu-button {
-                display: block;
-                position: absolute;
-                right: 20px;
-                top: 20px;
-            }
-            .hide-on-mobile{
-              display: none;
-            }
+          display: block;
+          position: absolute;
+          right: 20px;
+          top: 20px;
+        }
+        .hide-on-mobile {
+          display: none;
+        }
 
-            .header-buttons {
-                display: none;
-            }
+        .header-buttons {
+          display: none;
+        }
 
-            .mobile-menu {
-                display: block;
-            }
+        .mobile-menu {
+          display: block;
+        }
 
-            .mobile-menu .header-buttons {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                margin-top: 3rem;
-            }
+        .mobile-menu .header-buttons {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 3rem;
+        }
 
-            .mobile-menu .button {
-                width: 100%;
-                margin: 0.5rem 0;
-            }
+        .mobile-menu .button {
+          width: 100%;
+          margin: 0.5rem 0;
+        }
         header {
           flex-direction: column;
           gap: 1rem;
@@ -362,14 +362,13 @@
         }
       }
     </style>
-    
   </head>
   <body>
     <header>
       <img src="Logo.jpg" alt="Silver Roof Logo" class="logo" />
       <button class="mobile-menu-button" aria-label="Open menu">
         <span class="hamburger"></span>
-    </button>
+      </button>
       <div class="header-buttons">
         <a href="#" class="button" style="background: white; color: grey"
           >Schedule a Demo</a
@@ -378,16 +377,16 @@
       </div>
     </header>
     <div class="mobile-menu">
-        <button class="close-menu" aria-label="Close menu">×</button>
-        <div class="header-buttons">
-            <a href="#" class="button">Schedule a Demo</a>
-            <a href="#" class="button" style="background: #444;">Sign In</a>
-        </div>
+      <button class="close-menu" aria-label="Close menu">×</button>
+      <div class="header-buttons">
+        <a href="#" class="button">Schedule a Demo</a>
+        <a href="#" class="button" style="background: #444">Sign In</a>
+      </div>
     </div>
     <div class="hero-container">
       <div class="hero"></div>
       <div class="hero-content">
-        <h1 class="mobile-font-size" style="text-align: center; ">
+        <h1 class="mobile-font-size" style="text-align: center">
           Rethinking and Improving the Way We Work
         </h1>
         <h2 style="text-align: center">SENIOR LIVING MANAGEMENT SOFTWARE</h2>
@@ -396,7 +395,7 @@
         <h3 style="text-align: center">
           Everything you need for your community in one place:
         </h3>
-        <div class="features-list" >
+        <div class="features-list">
           <div>
             <p>Analytics Dashboard and Reports</p>
             <p>Marketing CRM & Lead Tracking</p>
@@ -419,63 +418,77 @@
     <section class="cloud-section">
       <img src="Computers.svg" alt="Platform Preview" />
       <div>
-        <h1 class="mobile-font-size">Cloud Based Technology</h2>
-        <h2 class="max-width-80 mobile-100-max-width mobile-font-size">EVERYTHING YOU NEED WITH YOU NO MATTER WHERE YOU ARE</h2>
-        <p  class="max-width-80 mobile-100-max-width">
-            Your work auto updates to be accessible on your desktop, laptop or tablet! This means you can view work orders as you go, take notes on a tour, or see the status of your community in your next meeting (no matter where it is!)         </p>
-            <div class="mobile-center-align">
-            <a href="#" class="button">Schedule a Demo</a>
+        <h1 class="mobile-font-size">Cloud Based Technology</h1>
+        <h2 class="max-width-80 mobile-100-max-width mobile-font-size">
+          EVERYTHING YOU NEED WITH YOU NO MATTER WHERE YOU ARE
+        </h2>
+        <p class="max-width-80 mobile-100-max-width">
+          Your work auto updates to be accessible on your desktop, laptop or
+          tablet! This means you can view work orders as you go, take notes on a
+          tour, or see the status of your community in your next meeting (no
+          matter where it is!)
+        </p>
+        <div class="mobile-center-align">
+          <a href="#" class="button">Schedule a Demo</a>
+        </div>
       </div>
-    </div>
     </section>
 
     <section class="benefits">
       <div class="benefit-card hide-on-mobile">
         <img src="Computer1.svg" alt="Easy to Use Interface" />
-        <h3>Fully Customizable & Easy to Use</h3>
+        <h1>Fully Customizable & Easy to Use</h1>
       </div>
       <div class="benefit-card">
         <img src="Computer2.svg" alt="Customer Support" />
-        <h3>Personalized Customer Support</h3>
+        <h1 class="mobile-font-size">Personalized Customer Support</h1>
       </div>
       <div class="benefit-card hide-on-mobile">
         <img src="Computer3.svg" alt="Modern Technology" />
-        <h3>Cutting-Edge Technology</h3>
+        <h1>Cutting-Edge Technology</h1>
       </div>
     </section>
 
-    <section class="support-section ">
-      <h2 class="mobile-left-align">THE SUPPORT YOUR TEAM NEEDS TO DO THEIR JOB WITH EASE</h2>
-      <p style=" margin: auto" class="mobile-left-align max-width-80 mobile-100-max-width">
-        It's easy to navigate, all in one place and simplifies your teams work flows. It was designed to be simple, so your team can spend more time doing their job and less time trying to get through a system. If they get stuck, we are here to answer their questions!
+    <section class="support-section">
+      <h2 class="mobile-left-align">
+        THE SUPPORT YOUR TEAM NEEDS TO DO THEIR JOB WITH EASE
+      </h2>
+      <p
+        style="margin: auto"
+        class="mobile-left-align max-width-80 mobile-100-max-width"
+      >
+        It's easy to navigate, all in one place and simplifies your teams work
+        flows. It was designed to be simple, so your team can spend more time
+        doing their job and less time trying to get through a system. If they
+        get stuck, we are here to answer their questions!
       </p>
-      <div class="mobile-center-align" style="margin: auto;">
-      <a href="#" class="button mobile-center-align" >Schedule a Demo</a>
-    </div>
+      <div class="mobile-center-align" style="margin: auto">
+        <a href="#" class="button mobile-center-align">Schedule a Demo</a>
+      </div>
     </section>
 
     <footer>
       <img src="Logo White.png" alt="Silver Roof Logo" class="logo" />
       <div class="header-buttons">
         <a href="#" class="button">Schedule a Demo</a>
-        <a href="#" class="button" >Sign In</a>
+        <a href="#" class="button">Sign In</a>
       </div>
     </footer>
 
     <script>
-        const mobileMenuButton = document.querySelector('.mobile-menu-button');
-        const closeMenuButton = document.querySelector('.close-menu');
-        const mobileMenu = document.querySelector('.mobile-menu');
+      const mobileMenuButton = document.querySelector(".mobile-menu-button");
+      const closeMenuButton = document.querySelector(".close-menu");
+      const mobileMenu = document.querySelector(".mobile-menu");
 
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        });
+      mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.add("active");
+        document.body.style.overflow = "hidden";
+      });
 
-        closeMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.remove('active');
-            document.body.style.overflow = '';
-        });
+      closeMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.remove("active");
+        document.body.style.overflow = "";
+      });
     </script>
   </body>
 </html>
