@@ -1,0 +1,260 @@
+{
+  "leads": {
+    "newLeads": [
+      {
+        "id": "11/20 02:00 PM",
+        "prospect": "John Smith",
+        "contact": "John Smith",
+        "phone": "(555) 123-4567",
+        "email": "john.smith@email.com",
+        "leadType": "cold",
+        "nextOutreach": "11/20 02:00 PM"
+      },
+      {
+        "prospect": "Sarah Johnson",
+        "contact": "Sarah Johnson",
+        "phone": "(555) 234-5678",
+        "email": "sarah.j@email.com",
+        "leadType": "cold",
+        "nextOutreach": "11/20 03:30 PM"
+      },
+      {
+        "prospect": "Robert Wilson",
+        "contact": "Robert Wilson",
+        "phone": "(555) 345-6789",
+        "email": "robert.w@email.com",
+        "leadType": "cold",
+        "nextOutreach": "11/21 09:00 AM",
+        "id": 17319743775358
+      }
+    ],
+    "discoveryScheduled": [
+      {
+        "prospect": "Michael Brown",
+        "contact": "Michael Brown",
+        "phone": "(555) 456-7890",
+        "email": "michael.b@email.com",
+        "leadType": "warm",
+        "nextOutreach": "11/21 10:00 AM"
+      },
+      {
+        "prospect": "Emily Davis",
+        "contact": "Emily Davis",
+        "phone": "(555) 567-8901",
+        "email": "emily.d@email.com",
+        "leadType": "warm",
+        "nextOutreach": "11/21 02:30 PM"
+      },
+      {
+        "prospect": "Daniel Thompson",
+        "contact": "Daniel Thompson",
+        "phone": "(555) 678-9012",
+        "email": "daniel.t@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/22 11:00 AM"
+      }
+    ],
+    "leadQualified": [
+      {
+        "prospect": "Emma Wilson",
+        "contact": "Emma Wilson",
+        "phone": "(555) 789-0123",
+        "email": "emma.w@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/22 02:00 PM"
+      },
+      {
+        "prospect": "David Lee",
+        "contact": "David Lee",
+        "phone": "(555) 890-1234",
+        "email": "david.l@email.com",
+        "leadType": "warm",
+        "nextOutreach": "11/22 04:00 PM"
+      },
+      {
+        "prospect": "Sophia Martinez",
+        "contact": "Sophia Martinez",
+        "phone": "(555) 901-2345",
+        "email": "sophia.m@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/23 09:30 AM"
+      }
+    ],
+    "tourScheduled": [
+      {
+        "prospect": "Lisa Anderson",
+        "contact": "Lisa Anderson",
+        "phone": "(555) 012-3456",
+        "email": "lisa.a@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/23 11:00 AM"
+      },
+      {
+        "prospect": "Kevin Clark",
+        "contact": "Kevin Clark",
+        "phone": "(555) 123-4567",
+        "email": "kevin.c@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/23 02:30 PM"
+      },
+      {
+        "prospect": "Rachel White",
+        "contact": "Rachel White",
+        "phone": "(555) 234-5678",
+        "email": "rachel.w@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/24 10:00 AM"
+      }
+    ],
+    "depositReceived": [
+      {
+        "prospect": "James Taylor",
+        "contact": "James Taylor",
+        "phone": "(555) 345-6789",
+        "email": "james.t@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/24 01:00 PM"
+      },
+      {
+        "prospect": "Amanda Turner",
+        "contact": "Amanda Turner",
+        "phone": "(555) 456-7890",
+        "email": "amanda.t@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/24 03:30 PM"
+      },
+      {
+        "prospect": "Chris Harris",
+        "contact": "Chris Harris",
+        "phone": "(555) 567-8901",
+        "email": "chris.h@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/25 09:00 AM"
+      }
+    ],
+    "reservations": [
+      {
+        "prospect": "Maria Garcia",
+        "contact": "Maria Garcia",
+        "phone": "(555) 678-9012",
+        "email": "maria.g@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/25 11:30 AM"
+      },
+      {
+        "prospect": "Thomas Johnson",
+        "contact": "Thomas Johnson",
+        "phone": "(555) 789-0123",
+        "email": "thomas.j@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/25 02:00 PM"
+      },
+      {
+        "prospect": "Jessica Brown",
+        "contact": "Jessica Brown",
+        "phone": "(555) 890-1234",
+        "email": "jessica.b@email.com",
+        "leadType": "hot",
+        "nextOutreach": "11/26 10:00 AM"
+      }
+    ]
+  },
+
+  "closedLeads": {
+    "lost": [
+      {
+        "prospect": "Alex Rivera",
+        "contact": "Alex Rivera",
+        "phone": "(555) 901-2345",
+        "email": "alex.r@email.com",
+        "leadType": "cold",
+        "nextOutreach": "Closed - Not Interested"
+      },
+      {
+        "prospect": "Michelle Wong",
+        "contact": "Michelle Wong",
+        "phone": "(555) 012-3456",
+        "email": "michelle.w@email.com",
+        "leadType": "warm",
+        "nextOutreach": "Closed - Budget Constraints"
+      },
+      {
+        "prospect": "Brian Cooper",
+        "contact": "Brian Cooper",
+        "phone": "(555) 123-4567",
+        "email": "brian.c@email.com",
+        "leadType": "hot",
+        "nextOutreach": "Closed - Chose Competitor"
+      }
+    ],
+    "won": [
+      {
+        "prospect": "Laura Chen",
+        "contact": "Laura Chen",
+        "phone": "(555) 234-5678",
+        "email": "laura.c@email.com",
+        "leadType": "hot",
+        "nextOutreach": "Closed - Move-in Complete"
+      },
+      {
+        "prospect": "Paul Stewart",
+        "contact": "Paul Stewart",
+        "phone": "(555) 345-6789",
+        "email": "paul.s@email.com",
+        "leadType": "hot",
+        "nextOutreach": "Closed - Move-in Complete"
+      },
+      {
+        "prospect": "Nicole Adams",
+        "contact": "Nicole Adams",
+        "phone": "(555) 456-7890",
+        "email": "nicole.a@email.com",
+        "leadType": "hot",
+        "nextOutreach": "Closed - Move-in Complete"
+      }
+    ]
+  },
+  "units": {
+    "studio": [
+      {
+        "productType": "Studio",
+        "roomNumber": "101",
+        "floorPlan": "Urban Studio",
+        "rent": 1200,
+        "isRentReady": true
+      },
+      {
+        "productType": "Studio",
+        "roomNumber": "101",
+        "floorPlan": "Urban Studio",
+        "rent": 1200,
+        "isRentReady": true
+      },
+      {
+        "productType": "Studio",
+        "roomNumber": "101",
+        "floorPlan": "Urban Studio",
+        "rent": 1200,
+        "isRentReady": true
+      }
+    ],
+    "oneBed": [
+      {
+        "productType": "1 Bedroom",
+        "roomNumber": "201",
+        "floorPlan": "Classic One",
+        "rent": 1500,
+        "isRentReady": false
+      }
+    ],
+    "twoBed": [
+      {
+        "productType": "2 Bedroom",
+        "roomNumber": "301",
+        "floorPlan": "Luxury Two",
+        "rent": 2000,
+        "isRentReady": true
+      }
+    ]
+  }
+}
